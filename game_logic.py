@@ -2,7 +2,7 @@ import random
 from ascii_art import STAGES
 
 WORDS = ["python", "git", "github", "snowman", "meltdown"]
-MAX_MISTAKES = len(STAGES) - 1  # 5
+MAX_MISTAKES = len(STAGES) - 1  # maximum number of errors = number of stages – 1
 
 
 def get_random_word():
